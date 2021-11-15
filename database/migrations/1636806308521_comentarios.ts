@@ -1,7 +1,7 @@
 import BaseSchema from '@ioc:Adonis/Lucid/Schema'
 
 export default class Comentarios extends BaseSchema {
-  protected tableName = 'web_comentarios'
+  protected tableName = 'comentarios'
 
   public async up () {
     this.schema.createTable(this.tableName, (table) => {
@@ -10,7 +10,7 @@ export default class Comentarios extends BaseSchema {
         .integer("user_id")
         .unsigned()
         .references("id")
-        .inTable("web_users")
+        .inTable("users")
         .onUpdate("CASCADE")
         .onDelete("CASCADE")
 
