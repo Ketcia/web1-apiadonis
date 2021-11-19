@@ -21,8 +21,12 @@ export default class Comentario extends BaseModel {
   @belongsTo(() => User)
   public user: BelongsTo<typeof User>
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 
 =======
 >>>>>>> Stashed changes
+=======
+
+>>>>>>> 9bca922c460617e3b7a7eea68c2ef9f0cab09ff9
 }
