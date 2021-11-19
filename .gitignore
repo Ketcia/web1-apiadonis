@@ -5,10 +5,5 @@ coverage
 .DS_STORE
 .env
 tmp
-<<<<<<< HEAD
 adoniskey
 adoniskey.pub
-=======
-gitubuntu
-gitubuntu.pub
->>>>>>> 9bca922c460617e3b7a7eea68c2ef9f0cab09ff9
