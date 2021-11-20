@@ -26,9 +26,6 @@ Route.get('/', async () => {
 
 Route.post("/register","AuthController.register")
 Route.post("/login","AuthController.login")
-<<<<<<< HEAD
 Route.group(()=>{
   Route.resource('comentarios','ComentariosController').apiOnly().except(["index","show"])
 }).middleware("auth")
-=======
->>>>>>> 9bca922c460617e3b7a7eea68c2ef9f0cab09ff9
